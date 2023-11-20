@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de Empresas</title>
+	<!-- Link para o Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" th:href="@{/clientes}"> Clientes</a>
+	<a class="navbar-brand" th:href="@{/empresas}"> Empresas</a>
+</nav>
+
+<div class="container mt-3">
+	<h2>Lista de Empresas</h2>
+	<a class="btn btn-primary mb-2" th:href="@{/empresas/novo}">Adicionar Empresa</a>
+	<table class="table">
+		<thead class="thead-dark">
+		<tr>
+			<th>ID</th>
+			<th>Nome</th>
+			<th>Descrição</th>
+			<th>Ações</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr th:each="empresa : ${empresas}">
+			<td th:text="${empresa.id}"></td>
+			<td th:text="${empresa.nome}"></td>
+			<td th:text="${empresa.descricao}"></td>
+			<td>
+				<a class="btn btn-info btn-sm"
+				   th:href="@{/empresas/editar/{id}(id=${empresa.id})}">Editar</a>
+				<a class="btn btn-danger btn-sm"
+				   th:href="@{/empresas/deletar/{id}(id=${empresa.id})}">Excluir</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+
+</body>
+
+</html>
