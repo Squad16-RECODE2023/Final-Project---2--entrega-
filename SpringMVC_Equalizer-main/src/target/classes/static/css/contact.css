@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+main {
+    margin-top: 120px;
+}
+
+#cards .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#cards .card .btn {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#especialist {
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#logo .card-img-top {
+    width: 30px;
+}
+
+#thirdCard .card{
+    border: none;
+}
+
+#thirdCard .card-body h5 {
+    font-size: 20pt;
+}
+
+#thirdCard .card-body p {
+    margin-top: 30px;
+}
+
+#thirdCard .card-body a {
+    width: 300px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 50px;
+}

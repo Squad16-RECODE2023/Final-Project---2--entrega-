@@ -1,0 +1,359 @@
+@charset "UTF-8";
+
+main {
+    margin-top: 150px;
+}
+
+#commercial h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#commercial p#comm1 {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+}
+
+#comm1Seal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#commercial img#comm1SealImg {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+#commercial #btnComm a {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 300px; 
+    border-radius: 5px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+#commercial p#comm2, #comm3, #comm4, #comm5  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 25px;
+    border: 1px solid #413f3fbd;
+}
+
+#commercial p#comm2 {
+    border-radius: 50px 80px 110px 20px;
+    background-color: rgba(0, 255, 255, 0.568);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+#commercial p#comm3 {
+    border-radius: 20px 110px 80px 50px;
+    background-color:rgba(255, 140, 0, 0.685);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
+#commercial p#comm4 {
+    border-radius: 80px 50px 20px 110px;
+    background-color:rgba(128, 255, 0, 0.685);
+    text-align: right;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+#commercial p#comm5 {
+    border-radius: 110px 20px 50px 80px;
+    background-color: rgba(255, 20, 145, 0.603);
+    text-align: right;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+section#culture {
+    margin-top: 80px;   
+}
+
+#textBlock1 {
+    margin-top: 40px;
+    background-color: rgba(255, 140, 0, 0.829);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#sealBlock1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#sealBlock1 h3 {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#sealBlock1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10.5pt;
+    font-weight: bold;
+    
+}
+
+#sealBlock1 p#paragraphA {
+    border-right: 2px solid #413f3fbd;
+    padding-right: 15px; 
+}
+
+#sealBlock1 p#paragraphB {
+    margin-top: 30px;
+}
+
+#sealBlock1 img {
+    width: 200px;
+    filter: drop-shadow(0px 4px 10px #0051ff); 
+}
+
+#sealBlock3 {
+    margin-top: 30px; 
+}
+
+#sealBlock3 h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+}
+
+#sealBlock3 #btnWant {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#btnWant a{
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#sucessCard {
+    margin-top: 50px;
+}
+
+#sucessCard h1 {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+}
+
+.sideBySide {
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+.custom-card {
+    width: 390px;
+    height: 300px;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden; 
+    transition: transform 0.3s;
+    margin: 15px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.custom-card h5 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.custom-card .textA {
+    width: 250px;
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-card .textB {
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-card:hover {
+    transform: scale(1.09);
+}
+
+.card-img {
+    opacity: 0.5;
+    width: 110%;
+    height: 100%;
+    margin-left: -12px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light a {
+    text-decoration: none;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-outline-light a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+section#testimonials {
+    margin-top: 60px;
+}
+
+#testimonials h5 {
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23pt;
+    font-weight: bolder;
+}
+
+#testimonials p {
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+}
+
+#testimonials .row {
+    margin-top: 30px;
+}
+
+#testimonials .card-title {
+    margin-top: 0;
+}
+
+#testimonials .card-text {
+    margin-top: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+}
+
+section#plans {
+    margin-top: 60px;
+}
+
+#plans #planTitle h5 {
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#sucessCard h1 {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+}
+
+.planSideBySide {
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+#planCustom.custom-card {
+    width: 390px;
+    height: 200px;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden; 
+    transition: transform 0.3s;
+    margin: 15px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+#planCustom.custom-card h5 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    font-weight: bolder;
+}
+
+#planCustom.custom-card .textA, .textC {
+    width: 250px;
+    font-size: 11pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#planCustom.custom-card .textB {
+    font-size: 11pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#planCustom.custom-card:hover {
+    transform: scale(1.09); 
+}
+
+#planCustom.card-img {
+    opacity: 0.5; 
+    width: 110%;
+    height: 100%;
+    margin-left: -12px;
+}
+
+#planCustom.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#planCustom.btn-outline-light {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+#planCustom.btn-outline-light a {
+    text-decoration: none;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+#planCustom.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#planCustom.btn-outline-light a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    margin-top: 50px;
+}

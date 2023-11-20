@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+main {
+    margin-top: 150px;
+}
+
+#sucessCase .container-fluid h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#sucessCase #bannerBlue {
+    margin-top: 20px;
+    background-color: rgba(17, 189, 189, 0.644);
+    color: #000000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#sucessCase .container-fluid h3 {
+    margin-top: 40px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#sucessCase .container-fluid p {
+    margin-top: 10px;
+    font-size: 11pt;
+}
+
+#sucessCard {
+    margin-top: 50px;
+}
+
+.sideBySide {
+    margin-top: 0;
+    display: inline-block;
+
+}
+
+.custom-card {
+    width: 290px;
+    height: 300px;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin: 15px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.custom-card h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.custom-card .textA {
+    width: 250px;
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-card .textB {
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-card:hover {
+    transform: scale(1.09);
+}
+
+.card-img {
+    opacity: 0.5;
+    width: 110%;
+    height: 100%;
+    margin-left: -12px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn-outline-light {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light a {
+    text-decoration: none;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-outline-light a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#sealEqualizer {
+    margin-top: 50px;
+}
+
+#sealEqualizer h1 {
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sealEqualizer #textBlock1 {
+    margin-top: 30px;
+    background-color: rgba(90, 92, 91, 0.733);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#sealEqualizer #imgText {
+    border-right: 2px solid #fff;
+}
+
+#sealEqualizer #textBlock1 h3 {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 30pt;
+}
+
+#sealEqualizer #textBlock1 p#paragraphA {
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#sealEqualizer #textBlock1 p#paragraphB {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+#sealEqualizer img#seal {
+    margin-top: 20px;
+    width: 200px;
+}
+
+#sealEqualizer img {
+    border-radius: 10px 60px;
+}
+
+#sealEqualizer #sealBlock2 {
+    margin-top: 50px;
+}
+
+#sealBlock2 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#sealBlock2 #text360 {
+    margin-top: 30px;
+}
+
+#sealBlock2 #text360 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+#sealBlock2 .col {
+    border-right: 2px solid #413f3fbd;
+    padding-right: 15px;
+}
+
+#sealBlock2 .col:last-child {
+    border-right: none;
+}
+
+#sealBlock2 .col:nth-child(2) {
+    border-right: none;
+}
+
+#sealEqualizer #sealBlock3 {
+    margin-top: 50px;
+}
+
+#sealBlock3 {
+    border-radius: 10px;
+    border: 3px solid rgba(17, 86, 189, 0.644);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: rgba(227, 229, 233, 0.623);
+}
+
+#sealEqualizer #sealBlock3 p {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #535050;
+}
+
+#sealEqualizer #sealBlock3 a {
+    margin-top: -60px;
+    margin-bottom: 20px;
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+main {
+   margin-top: 150px;
+}
+
+#evaluatorForm {
+   padding: 30px;
+   max-width: 400px;
+   border-radius: 10px;
+   background-color: #ffffff;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#evaluatorForm h1 {
+   font-size: 20pt;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   color: #666666;
+   margin-bottom: 20px;
+}
+
+#evaluatorForm input#birthDate, #password, #cpf {
+   max-width: 200px;
+
+}
+
+.form-group input {
+   border-color: rgba(109, 103, 103, 0.705);
+}
+
+.form-group ::placeholder {
+   font-size: 10.5pt;
+   font-style: italic;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   color: #666666;
+}
+
+#evaluatorForm .btn-primary {
+   margin-top: 20px;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+footer {
+   margin-top: 30px;
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1rem 0;
+}

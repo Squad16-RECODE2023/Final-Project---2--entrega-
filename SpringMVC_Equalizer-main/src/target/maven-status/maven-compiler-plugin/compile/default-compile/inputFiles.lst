@@ -1,0 +1,13 @@
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/model/Empresa.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/repositories/ClienteRepository.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/controllers/EmpresaController.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/config/WebConfig.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/controllers/ClienteController.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/services/ClienteService.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/servicesImpl/ClienteServiceImpl.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/repositories/EmpresaRepository.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/services/EmpresaService.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/model/Cliente.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/servicesImpl/EmpresaServiceImpl.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/com/Equalizer/EqualizerApplication.java
+/home/miller/Downloads/SpringMVC_Equalizer-main/src/main/java/config/SecurityConfig.java
